@@ -1,0 +1,16 @@
+#gmail , #phone {
+	color: blue;
+	font-family: monospace;
+}
+
+body {
+	#background-color: #642EFE;
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+#skill , #goal , #work , #resume , p {
+	#color: white;
+}
+
+tab { margin-left: 30px; }
