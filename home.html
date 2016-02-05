@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+    	<title>First Bootstrap Website</title>
+    	
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="css/custom.css" rel="stylesheet">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">		
+    	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		    
+	</head>
+	<body>
+		
+		<!--start of navigation bar-->
+			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">Nazran Nasir</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#resume">Resume</a></li>
+								<li><a href="#goal">Occupational Goal</a></li>
+								<li><a href="#skill">Skill</a></li>
+								<li><a href="#work">Work</a></li>
+							</ul>
+						</li>
+						<li><a href="#contact" data-toggle="modal">Contact</a></li>
+					</ul>
+						
+				</div>
+			</div>
+		</div>
+		<!--end of navigation bar-->
+		
+		<!--start of intro-->
+		<div class="container">
+			<div class="jumbotron">
+			<h1>Hi, I'm Nazran!</h1>
+			<p>Ipoh, Perak</p>
+			<p>Web developer at <a href="http://www.seetrustudio.com/">seetrustudio.com</a></p>
+			<a href="#" class="btn btn-primary">More About Me!</a>
+			</div>
+		</div>
+		<!--end of intro-->
+		
+		<!--start of content-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 id="resume">Resume</h3>
+					<p>
+						1. Industrial Attachment (2 February - 31 July 2016) <br>
+						<tab>-Web developer at <a href="seetrustudio.com">seetrustudio</a>, Setiawangsa</tab> <br>
+						2. Bachelor of Information Technology, International Islamic University Malaysia, Gombak (2012-2016) <br>
+						3. Center for Foundation Studies. International Islamic University Malaysia, Petaling Jaya (2011) <br>
+						4. Malaysia Certificate of Education, Sekolah Menengah Kebangsaan Raja Chulan (2010) <br>
+						<tab>-Achieved 10 As</tab> <br>
+						5. Sales Assistant, Ipoh, Perak (2009-2010) <br>
+						<tab>-A family business Nuralya Enterprise selling traditional medicine</tab> <br>	
+					</p>
+				</div>
+			</div>		
+				
+			<div class="row">
+				<div class="col-md-4">
+				<h3 id="skill">Skill</h3>
+				<p id="skillp">
+					<li>HTML, CSS, JavaScript</li>
+					<li>jQueryMobile</li>
+					<li>Adobe Photoshop, Adobe Flash</li>
+					<li>RPGMaker VX Ace, Unity5, Blender</li>
+					<li>Web development</li>
+					<li>Mobile apps development</li>
+					<li>Game development</li>
+				</p>
+				</div>
+				<div class="col-md-4">
+				<h3 id="goal">Occupational Goals</h3>
+				<p>
+					Learning bunch of programming languages and be a successful technopreneur. <br>
+					Becoming an indie game developer and web developer. <br>
+					Innovating a new game genre. <br>
+					Producing Islamic products via web technology. <br>
+				</p>
+				</div>
+				<div class="col-md-4">
+				<h3 id="work">Work</h3>
+				</div>
+			</div>
+		</div>
+		<!--end of content-->
+		
+		<!--start of modal for contact-->
+		<div class="modal fade" id="contact" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4>Nazran Nasir</h4>
+					</div>
+					<div class="modal-body">
+						<p>Please do contact me for more information. <i class="fa fa-smile-o"></i></p>
+						<p id="gmail">nazran.nasir93@gmail.com</p>
+						<p id="phone">M: 013-3926123</p>
+						<a href="https://www.facebook.com/angahazra"><i class="fa fa-facebook-square fa-2x"></i></a>
+					</div>
+					<div class="modal-footer">
+						<a class="btn btn-primary" data-dismiss="modal">Close</a>
+					</div>
+				</div>
+			</div>
+		</div>
+						
+   		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   		 <script src="js/bootstrap.min.js"></script>
+   		 
+    </body>
+</html>
